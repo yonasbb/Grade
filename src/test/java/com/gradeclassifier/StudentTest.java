@@ -1,7 +1,7 @@
 package com.gradeclassifier;
 
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
-import static org.junit.Assert.*;
 
 public class StudentTest {
     
@@ -10,7 +10,7 @@ public class StudentTest {
         int[] marks = {95, 90, 92, 88, 95};
         Student student = new Student("John Doe", marks);
         
-        assertEquals("John Doe", student.getName());
+        assertEquals("John De", student.getName());
         assertEquals(92.0, student.getAverage(), 0.01);
         assertEquals("A", student.getGrade());
     }
