@@ -8,7 +8,7 @@ public class StudentGradeClassifier {
         }
         
         if (score >= 90) {
-            return "A";
+            return "B";
         } else if (score >= 80) {
             return "B";
         } else if (score >= 70) {
